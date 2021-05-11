@@ -4,6 +4,8 @@ N = 15
 V = 20
 K = 5
 
+FILE_PATH = "./graph.txt"
+
 def _build(n_components):
     res_graph = nx.Graph()
     for i in range(n_components+1):
